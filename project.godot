@@ -55,3 +55,8 @@ environment/subsurface_scattering/subsurface_scattering_quality=2
 global_illumination/sdfgi/probe_ray_count=2
 anti_aliasing/quality/use_taa=true
 lights_and_shadows/positional_shadow/atlas_size=2048
+
+[xr]
+
+openxr/enabled=true
+openxr/extensions/hand_tracking=false
