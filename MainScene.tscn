@@ -1,6 +1,7 @@
-[gd_scene load_steps=294 format=3 uid="uid://dcgtpj2gjbxgl"]
+[gd_scene load_steps=295 format=3 uid="uid://dcgtpj2gjbxgl"]
 
 [ext_resource type="PackedScene" uid="uid://x65cq1udsqsf" path="res://Scenes/Section01/S1B1.tscn" id="1_17a2u"]
+[ext_resource type="Script" path="res://main_scene.gd" id="1_teqr5"]
 [ext_resource type="PackedScene" uid="uid://eo1atg6pdllw" path="res://Scenes/Section01/S1B2.tscn" id="2_8mtnr"]
 [ext_resource type="Material" uid="uid://cbufshjju7lvd" path="res://Materials/Miscellaneous/Shopsign_Pharmacy_Emissive.tres" id="2_je3vt"]
 [ext_resource type="Material" uid="uid://de2c14t65vd2i" path="res://Materials/Miscellaneous/Shopsign_Book_Store_Emissive.tres" id="3_414o6"]
@@ -777,6 +778,7 @@ points = PackedVector3Array(0.510391, -1.06574, 0.344101, -0.637138, 0.368819, 0
 
 [node name="MainScene" type="Node"]
 physics_interpolation_mode = 2
+script = ExtResource("1_teqr5")
 
 [node name="XROrigin3D" type="XROrigin3D" parent="."]
 
