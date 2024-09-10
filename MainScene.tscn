@@ -1,4 +1,4 @@
-[gd_scene load_steps=278 format=3 uid="uid://dcgtpj2gjbxgl"]
+[gd_scene load_steps=277 format=3 uid="uid://dcgtpj2gjbxgl"]
 
 [ext_resource type="PackedScene" uid="uid://x65cq1udsqsf" path="res://Scenes/Section01/S1B1.tscn" id="1_17a2u"]
 [ext_resource type="Script" path="res://main_scene.gd" id="1_teqr5"]
@@ -54,7 +54,6 @@
 [ext_resource type="ArrayMesh" uid="uid://pw3fun5eaf0n" path="res://Meshes/rounded_cube.obj" id="33_6648h"]
 [ext_resource type="PackedScene" uid="uid://djmap33l1n2u6" path="res://Scenes/Section02/S2Lamps_Props.tscn" id="33_k0qq7"]
 [ext_resource type="Environment" uid="uid://bevtu3gehmb2j" path="res://Resources/WorldEnvironment.tres" id="33_vhloy"]
-[ext_resource type="Material" uid="uid://elgkttuqw3r" path="res://Materials/FogMaterial.tres" id="35_hsy4k"]
 [ext_resource type="PackedScene" uid="uid://bjgd3j6klx44v" path="res://Scenes/Section03/S3Lamps_Props.tscn" id="40_mmbd0"]
 [ext_resource type="PackedScene" uid="uid://cos8ymay0y3os" path="res://Scenes/Section04/S4B3_Props.tscn" id="41_renwl"]
 [ext_resource type="PackedScene" uid="uid://dfhhloubmolfj" path="res://Scenes/Section05/S5B1_Props.tscn" id="43_a2awi"]
@@ -709,10 +708,6 @@ night_music = NodePath("../Audio/NightMusic")
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("33_vhloy")
 camera_attributes = ExtResource("30_pvdv2")
-
-[node name="FogVolume" type="FogVolume" parent="."]
-shape = 4
-material = ExtResource("35_hsy4k")
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.154712, -0.786939, 0.59732, -8.9407e-08, 0.6046, 0.79653, -0.98796, 0.123232, -0.0935387, 0, 0, 0)
