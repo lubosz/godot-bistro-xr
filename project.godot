@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Bistro-Demo-Tweaked"
+config/name="Godot Bistro XR"
 config/description="Lumberyard Bistro demo for Godot"
 config/version="1.0"
 run/main_scene="res://MainScene.tscn"
