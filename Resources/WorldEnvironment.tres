@@ -11,7 +11,6 @@ background_intensity = 22500.0
 sky = SubResource("Sky_u3ie7")
 tonemap_mode = 3
 tonemap_white = 6.0
-ssr_enabled = true
 ssr_max_steps = 128
 ssr_fade_in = 0.05
 ssr_fade_out = 1.5
