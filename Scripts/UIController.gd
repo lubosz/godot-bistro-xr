@@ -236,6 +236,22 @@ func switch_visibility():
 func _unhandled_input(event):
 	if event is InputEventKey:
 		match event.keycode:
+			KEY_1:
+				if event.pressed:
+					print("Changing time to dusk")
+					apply_time(lighting_scenarios.dusk)
+			KEY_2:
+				if event.pressed:
+					print("Changing time to noon")
+					apply_time(lighting_scenarios.noon)
+			KEY_3:
+				if event.pressed:
+					print("Changing time to afternoon")
+					apply_time(lighting_scenarios.afternoon)
+			KEY_4:
+				if event.pressed:
+					print("Changing time to night")
+					apply_time(lighting_scenarios.night)
 			KEY_H:
 				if !ui_cooldown:
 					is_ui_hidden = !is_ui_hidden
