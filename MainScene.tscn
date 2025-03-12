@@ -1,7 +1,7 @@
 [gd_scene load_steps=278 format=3 uid="uid://dcgtpj2gjbxgl"]
 
 [ext_resource type="PackedScene" uid="uid://x65cq1udsqsf" path="res://Scenes/Section01/S1B1.tscn" id="1_17a2u"]
-[ext_resource type="Script" path="res://main_scene.gd" id="1_teqr5"]
+[ext_resource type="Script" uid="uid://qcoe33vu1f6i" path="res://main_scene.gd" id="1_teqr5"]
 [ext_resource type="PackedScene" uid="uid://eo1atg6pdllw" path="res://Scenes/Section01/S1B2.tscn" id="2_8mtnr"]
 [ext_resource type="Material" uid="uid://cbufshjju7lvd" path="res://Materials/Miscellaneous/Shopsign_Pharmacy_Emissive.tres" id="2_je3vt"]
 [ext_resource type="Material" uid="uid://de2c14t65vd2i" path="res://Materials/Miscellaneous/Shopsign_Book_Store_Emissive.tres" id="3_414o6"]
@@ -23,7 +23,7 @@
 [ext_resource type="Material" uid="uid://bi8tfpoad535y" path="res://Materials/Lights/StringLight_Red.tres" id="11_awwij"]
 [ext_resource type="PackedScene" uid="uid://dpgfbsr7n2bm8" path="res://Scenes/Section02/BistroProps.tscn" id="11_e4jub"]
 [ext_resource type="PackedScene" uid="uid://d4b75rgbhmhow" path="res://Scenes/Section02/S2Ivy.tscn" id="12_lc6cf"]
-[ext_resource type="Script" path="res://Scripts/LightChangeUtil.gd" id="12_p7w1a"]
+[ext_resource type="Script" uid="uid://enn7c3iebgov" path="res://Scripts/LightChangeUtil.gd" id="12_p7w1a"]
 [ext_resource type="Material" uid="uid://uyoltu5ukmtw" path="res://Materials/Lights/HangingLight_Emissive.tres" id="12_qowfr"]
 [ext_resource type="Material" uid="uid://ivcxxvgm585r" path="res://Materials/Lights/StringLight_White.tres" id="12_xvt36"]
 [ext_resource type="Material" uid="uid://00b6xip7tpd8" path="res://Materials/Miscellaneous/Bistro_Sign_Letters.tres" id="13_blrrn"]
@@ -73,7 +73,7 @@
 [ext_resource type="Material" uid="uid://d0cd8fe6hpv6t" path="res://Materials/windowlight.tres" id="63_8uykn"]
 [ext_resource type="ArrayMesh" uid="uid://npyvb0up4qr6" path="res://Meshes/Bent_Quad.obj" id="63_l4mn6"]
 [ext_resource type="PackedScene" uid="uid://cb5wljw5j3qlt" path="res://Scenes/PropAudioPlayer.tscn" id="70_yq80p"]
-[ext_resource type="Script" path="res://Scripts/FoliageArea.gd" id="75_mt554"]
+[ext_resource type="Script" uid="uid://bwwq5emxos8hx" path="res://Scripts/FoliageArea.gd" id="75_mt554"]
 [ext_resource type="PackedScene" uid="uid://dph2jwqw0jaw" path="res://Scenes/FoliageSound.tscn" id="76_oe8ap"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_u4h6w"]
